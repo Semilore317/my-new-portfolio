@@ -31,7 +31,7 @@ a {
 /*transition*/
 a,
 .btn {
-  transition: all 300ms ease;
+  transition: all 500ms ease;
 }
 
 /*desktop nav*/
@@ -53,6 +53,7 @@ a,
 
 .logo {
   font-size: 2rem;
+  font-family: "Headshots";
 }
 .logo:hover {
   cursor: default;
