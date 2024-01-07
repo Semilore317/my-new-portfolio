@@ -115,4 +115,17 @@ nav {
 
 .hamburger-icon.open span:last-child {
   transform: rotate(-45deg) translate(10px, -5px);
+}
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+
+.section__pic-container {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

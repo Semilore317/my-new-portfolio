@@ -123,3 +123,15 @@
       transform: rotate(-45deg) translate(10px, -5px);
   }
   //sections
+
+  section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+  }
+
+  .section__pic-container{
+    display: flex;
+  }
