@@ -214,4 +214,8 @@ section {
 
 .btn-btn-color-2:hover {
   border: white 0.1rem solid;
+}
+
+.section-container {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
