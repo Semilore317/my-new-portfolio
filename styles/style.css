@@ -286,6 +286,15 @@ fieldset,
   text-align: center;
 }
 
+#details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: none;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
 #experience {
   position: relative;
 }
@@ -320,8 +329,4 @@ article {
 }
 article .icon {
   cursor: default;
-}
-
-/*#projects{
-
-}*//*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

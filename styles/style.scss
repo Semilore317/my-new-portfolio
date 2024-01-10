@@ -288,8 +288,9 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 2rem;
-
-fieldset {
+}
+fieldset,
+.details-container{
   padding: 1.5rem;
   flex: 1;
   background: white;
