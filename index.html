@@ -33,73 +33,98 @@
           <span></span>
         </div>
         <div class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
 
     <section class="profile">
-        <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="John Doe profile picture">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text-p1">Hello, i'm</p>
+        <h1 class="title">John Doe</h1>
+        <p class="section__text-p2">Web developer</p>
+        <div class="btn-container">
+          <button
+            class="btn-btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn-btn-color-1" onclick="location.href='./#contact'">
+            Contact Me!
+          </button>
         </div>
-        <div class="section__text">
-            <p class="section__text-p1">Hello, i'm</p>
-            <h1 class="title">John Doe</h1>
-            <p class="section__text-p2">Web developer</p>
-            <div class="btn-container">
-                <button class="btn-btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
-                    Download CV
-                </button>
-                <button class="btn-btn-color-1" onclick="location.href='./#contact'">
-                    Contact Me!
-                </button>
-            </div>
-            <div class="socials-container">
-                <a href="#">
-                    
-                </a>
-                <img src="./assets/linkedin.png" alt="linkedin" class="icon">
-                <img src="./assets/github.png" alt="Github" class="icon">
-                <img src="./assets/email.png" alt="Email" class="icon">
-                
-            </div>
+        <div class="socials-container">
+          <a href="#"> </a>
+          <img src="./assets/linkedin.png" alt="linkedin" class="icon" />
+          <img src="./assets/github.png" alt="Github" class="icon" />
+          <img src="./assets/email.png" alt="Email" class="icon" />
         </div>
+      </div>
     </section>
 
     <!--about page-->
     <section id="about">
-        <p class="b4-title">Get to know more</p>
-        <h1 class="title">About me</h1>
-        <div class="section-container">
-            
-            <div class="section__pic-container">
-                <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic">
-            </div>
-
-            <div class="about-details-container">
-                <div class="about-containers">
-                    <div class="details-container">
-                        <img src="./assets/experience.png" alt="experience icon" class="icon">
-                        <h3>Experience</h3>
-                        <p>2+ years <br> Frontend Development</p>
-                    </div>
-                    
-                    <div class="details-container">
-                        <img src="./assets/education.png" alt="education icon" class="icon">
-                        <h3>Experience</h3>
-                        <p>B.Sc Bachelor's degree <br>M.Sc. Master's degree</p>
-                    </div>
-                </div>
-                <div class="text-container">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos non sunt delectus optio dignissimos autem? Perspiciatis officiis blanditiis ad cumque assumenda voluptate suscipit amet, maxime recusandae consectetur quaerat odit ipsam iste dolorum sapiente pariatur dignissimos velit exercitationem similique corporis vitae? Enim, blanditiis? Praesentium temporibus voluptates nulla, voluptatum quasi labore quas!
-                </div>
-            </div>
+      <p class="b4-title">Get to know more</p>
+      <h1 class="title">About me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
         </div>
 
-        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>
+                2+ years <br />
+                Frontend Development
+              </p>
+            </div>
+
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="education icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>B.Sc Bachelor's degree <br />M.Sc. Master's degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos non
+            sunt delectus optio dignissimos autem? Perspiciatis officiis
+            blanditiis ad cumque assumenda voluptate suscipit amet, maxime
+            recusandae consectetur quaerat odit ipsam iste dolorum sapiente
+            pariatur dignissimos velit exercitationem similique corporis vitae?
+            Enim, blanditiis? Praesentium temporibus voluptates nulla,
+            voluptatum quasi labore quas!
+          </div>
+        </div>
+      </div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
     </section>
   </body>
 </html>

@@ -127,8 +127,8 @@ section {
 }
 
 /*.section__text{
-  display: flex;
-}*/
+    display: flex;
+  }*/
 .profile {
   display: flex;
   justify-content: center;
@@ -141,6 +141,13 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+.section__pic-container img {
+  transition: all 0.3ms ease-in-out;
+}
+.section__pic-container img:hover {
+  width: 390px;
+  height: 390px;
 }
 
 .section__text {
