@@ -288,7 +288,6 @@ section {
   position: absolute;
   right: -5rem;
   bottom: 2rem;
-}
 
 fieldset {
   padding: 1.5rem;
@@ -298,6 +297,15 @@ fieldset {
   border: rgb(53, 53, 53) 0.1rem solid;
   //border-color: rgb(163, 163, 163);
   text-align: center;
+}
+
+#details-container{
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: none;
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 //experience section
@@ -336,9 +344,4 @@ article {
   .icon {
     cursor: default;
   }
-}
-
-//projects section
-#projects{
-
 }
