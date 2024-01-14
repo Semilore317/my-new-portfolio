@@ -43,8 +43,12 @@ a,
     left: 0;
     height: 100%;
     width: 100%;
-    animation: typeOut ;
+    animation: typeOut 4s steps(12) infinite;
   }
+}
+
+@keyframes typeOut {
+  
 }
 /*desktop nav*/
 .nav-links {
