@@ -34,6 +34,9 @@ a,
   transition: all 100ms ease;
 }
 
+.anim-text {
+  font-family: "Montserrat";
+}
 .anim-text::before {
   content: "";
   background: white;
@@ -46,7 +49,14 @@ a,
   animation: typeOut 4s steps(12) infinite;
 }
 
-@keyframes typeOut {}
+@keyframes typeOut {
+  40%, 60% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
 /*desktop nav*/
 .nav-links {
   display: flex;
