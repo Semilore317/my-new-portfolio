@@ -34,6 +34,18 @@ a,
   transition: all 100ms ease;
 }
 
+.anim-text::before {
+  content: "";
+  background: white;
+  border-left: 2px solid red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  animation: typeOut;
+}
+
 /*desktop nav*/
 .nav-links {
   display: flex;
@@ -182,6 +194,7 @@ section {
   text-align: center;
   color: black;
   font-weight: 400;
+  position: relative;
 }
 
 .socials-container {
