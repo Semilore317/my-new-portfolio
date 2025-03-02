@@ -13,6 +13,8 @@ fieldset legend {
 
 body {
   font-family: "Poppins";
+  /*background-color: red;*/
+  overflow-x: hidden;
 }
 
 html {

@@ -14,6 +14,8 @@ fieldset {
 
 body {
   font-family: "Poppins";
+  overflow-x: hidden;
+  background: red;
 }
 
 html {
@@ -131,9 +133,10 @@ nav {
   top: 100%;
   right: 0%;
   background: white;
-  width: fit-content;
+  //width: fit-content;
   max-height: 0;
   overflow: hidden;
+  transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 
   a {
@@ -293,6 +296,7 @@ section {
 //about section
 #about {
   position: relative;
+;
 }
 
 .about-containers {
