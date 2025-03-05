@@ -28,7 +28,6 @@
   }
   section,
   .section-container {
-    height: -moz-fit-content;
     height: fit-content;
   }
   section {
@@ -41,6 +40,9 @@
   }
   .about-containers {
     margin-top: 0;
+  }
+  .contact-info-upper-container{
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 600px) {

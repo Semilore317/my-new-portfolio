@@ -3,9 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My portfolio</title>
+    <title>My portfolio .</title>
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./media-queries/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <script src="./main.js"></script>
   </head>
   <body>
@@ -33,10 +36,12 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <ul>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -108,7 +113,7 @@
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>B.Sc Bachelor's degree <strong>in progress</strong></p>
+              <p>B.Sc. Bachelor's degree <strong>in progress</strong></p>
             </div>
           </div>
           <div class="text-container">
@@ -222,6 +227,31 @@
                     <p>Basic</p>
                   </div>
                 </article>
+                <article>
+                  <img
+                          src="./assets/framer-motion.svg"
+                          alt="experience icon"
+                          class="icon"
+                  />
+
+                  <div>
+                    <h3>Framer Motion</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                          src="./assets/material-ui.svg"
+                          alt="experience icon"
+                          class="icon"
+                  />
+
+                  <div>
+                    <h3>Material UI</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+
                 <!--
                 <article>
                   <img
@@ -424,19 +454,19 @@
 
           <div class="details-container color-container">
             <div class="article-container">
-              <img src="./assets/project-3.png" alt="project one" class="project-img"/>
-              <h2 class="experience-subtitle project-title">Project Three</h2>
+              <img src="./assets/img_4.png" alt="project one" class="project-img"/>
+              <h2 class="experience-subtitle project-title">NEXT GYM</h2>
               <div class="btn-container">
                 <button
                   class="btn btn-color-2 project-btn"
-                  onclick="window.open('https://github.com')"
+                  onclick="window.open('https://github.com/Semilore317/gym-website')"
                 >
                   Github
                 </button>
 
                 <button
                   class="btn btn-color-2 project-btn"
-                  onclick="window.open('https://github.com')"
+                  onclick="window.open('https://gym-website-omega-virid.vercel.app/')"
                 >
                   Live Demo
                 </button>
@@ -500,8 +530,6 @@
               <a href="https://www.instagram.com/semilore_bankole/">
                   Instagram
               </a>
-          </p>
-      </div>
     </div>
     </div>
     </section>
