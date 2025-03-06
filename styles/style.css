@@ -89,7 +89,7 @@ a,
 
 .logo {
   font-size: 2rem;
-  font-family: "Montserrat";
+  font-family: "Outfit", sans-serif;
 }
 .logo:hover {
   cursor: default;
@@ -129,7 +129,7 @@ nav {
 .menu-links {
   position: absolute;
   top: 100%;
-  right: 0%;
+  right: 0;
   background: white;
   width: fit-content;
   max-height: 0;
@@ -336,7 +336,7 @@ fieldset,
 
 #experience {
   position: relative;
-  max-height: ;
+  /*max-height: ;*/
 }
 
 .experience-sub-title {
@@ -350,7 +350,6 @@ fieldset,
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-direction: column;
 }
 
 .article-container {
