@@ -361,6 +361,18 @@ fieldset,
   justify-content: space-around;
 }
 
+.article-container > article {
+  display: flex;
+  flex-wrap: wrap;
+  /*background: #f57171;*/
+  align-items: center;
+  /*justify-content: space-between;*/
+  font-size: 0.8rem;
+  /*padding-block: 1.5rem;*/
+  text-align: center;
+  white-space: nowrap;
+}
+
 article {
   display: flex;
   width: 10rem;

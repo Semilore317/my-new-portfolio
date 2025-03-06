@@ -104,4 +104,8 @@
   .text-container {
     text-align: justify;
   }
+  .article-container > article{
+    flex-direction: column;
+    gap: 0.1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
