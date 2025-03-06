@@ -379,6 +379,12 @@ article {
   justify-content: space-around;
   gap: 0.5rem;
 }
+@media (max-width: 800px) {
+  article {
+    width: 5rem;
+  }
+}
+
 article .icon {
   cursor: default;
 }
