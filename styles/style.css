@@ -274,7 +274,7 @@ section {
 .section-container {
   display: flex;
   gap: 1.5rem;
-  height: 80%;
+  height: 30rem;
 }
 
 .section__pic-container {
@@ -293,7 +293,10 @@ section {
   margin-bottom: 2rem;
   margin-top: 2rem;
   width: 100%;
+  flex:1 ;
 }
+
+
 .about-containers .project-img {
   width: 100%;
   height: 100%;
@@ -323,6 +326,13 @@ fieldset,
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ughh{
+  flex-direction: column;
 }
 
 #details-container {
@@ -455,3 +465,14 @@ footer {
   margin: 0 1rem;
   text-align: center;
 }/*# sourceMappingURL=style.css.map */
+
+
+.about-containers-1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+#wide-btn{
+  margin-inline: 4.2rem;
+}

@@ -7,10 +7,19 @@
   .about-containers {
     flex-wrap: wrap;
   }
+  .color-container{
+    align-items: start;
+  }
+  #projects{
+    margin-top: 6rem;
+  }
 }
 @media screen and (max-width: 1200px) {
   .desktop-nav {
     display: none;
+  }
+  #projects{
+    margin-top: 5rem
   }
   .hamburger-nav {
     display: flex;
